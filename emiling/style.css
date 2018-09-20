@@ -1,5 +1,81 @@
 html{
     box-sizing: border-box;
     font-family: 'NanumSquareRound',sans-serif;
+}
 
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.simple-nav {
+    display: flex;
+    justify-content: space-between;
+}
+.simple-nav img {
+    width: 400px;
+    height: auto;
+    margin: 20px 100px;
+}
+
+.simple-nav i {
+    margin : 29px 100px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.main .main-text {
+    margin-left: 450px;
+    line-height: 1.1rem;
+    position: relative;
+}
+
+.main .main-text h1 {
+    font-size: 7rem;
+    font-weight: 1000;
+}
+
+.main .main-text h3 {
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
+.main .main-text h2 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.main .main-text hr {
+    color: #333;
+    border: thin solid #333;
+}
+
+.main img {
+    width: 60rem;
+    height: 70%;
+    padding-right: 100px;
+    top: -40px;
+    left: -150px;
+    position: relative;
+}
+
+.introduce {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    height: 400px;
+    
+}
+
+.introduce-image-1 {
+    background: url(img/green-cookie.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.introduce-image-2 {
+    background: url(img/cupcake.jpg);
+    background-size: cover;
+    background-position: center;
 }
