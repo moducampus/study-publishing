@@ -1,3 +1,82 @@
-body {
-  background-color: white;
+body, html {
+  padding: 0;
+  margin: 0;
+  color: #333;
 }
+
+nav.header {
+  position: fixed;
+  z-index: 200;
+  height: 200px;
+}
+
+.section-list section {
+  position: relative;
+}
+
+
+.container-narrow {
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 768px;
+  width: 100%;
+}
+
+.container {
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1024px;
+  width: 100%;
+}
+
+.container-wide {
+  padding-left: 16px;
+  padding-right: 16px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+
+.header{
+
+}
+
+
+
+
+
+.section-list .section {
+}
+
+.section1 {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1 .content{
+  position: relative;
+}
+
+.section1 .content .text {
+  z-index: 100;
+  position: absolute;
+}
+.section1 .content .text .clearfix-line {
+  height: 0px;
+  width: 100%;
+  border: 1px solid #666;
+  margin: 0.25rem 0px 0.75rem 0px;
+}
+.section1 .content .thumbnail{
+  z-index: 10;
+  position: absolute;
+  right: 0px;
+  bottom: -250px;
+}
+
+.section1 .content .thumbnail img{
+  width: 500px;
+}
+
+
