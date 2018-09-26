@@ -48,6 +48,20 @@ nav.header .content{
   position: relative;
 }
 
+.clearfix-boldline{
+  height:0.25rem;
+  width: 4rem;
+  background-color: white;
+  display: block;
+}
+
+
+.paragraph{
+  margin-top: 1.5rem;
+}
+.line{
+  line-height: 2;
+}
 
 /* Section1 */
 .section1 {
@@ -104,19 +118,6 @@ nav.header .content{
   flex-direction: column;
 }
 
-.section2 .item.item-text .clearfix-boldline{
-  height:0.25rem;
-  width: 4rem;
-  background-color: white;
-  display: block;
-}
-
-.section2 .item.item-text .paragraph{
-  margin-top: 1.5rem;
-}
-.section2 .item.item-text .line{
-  line-height: 2;
-}
 
 .section2 .item.item-image{
   background-size: cover;
@@ -180,7 +181,7 @@ nav.header .content{
   width: 150%;
   height: 150%;
   position: absolute;
-  top: -25%;
+  top: -35%;
   left: -25%;
   z-index: 10;
 }
@@ -226,4 +227,59 @@ nav.header .content{
 }
 .section3 .content .item-list .item .card.card-left .pictogram {
   left: 1rem;
+}
+
+
+/* section4 */
+
+.section4 {
+  height: 450px;
+  background-color: black;
+  display: flex;
+  color: white;
+}
+
+.section4 .left-section-side {
+  flex: 3;
+}
+
+.section4 .left-section-asile {
+  flex: 5;
+}
+
+
+
+.section4 .right-section-asile {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section4 .right-section-asile.image {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),url(https://i.imgur.com/W6Y2rDx.jpg);
+}
+
+.section4 .right-section-side {
+  flex: 4;
+}
+.section4 .right-section-side.image {
+  background-size: 140%;
+  background-repeat: no-repeat;
+  background-position-y: 100%;
+  background-position-x: center;
+  background-image: url(https://miro.medium.com/max/2400/1*fKCwfNbEUnL5aEtBZYd3sQ.jpeg);
+}
+
+
+
+.btn.btn-readmore {
+  outline: 0;
+  border: 0;
+  background-color: white;
+  color: black;
+  padding: 0.5rem 0.75rem;
 }
